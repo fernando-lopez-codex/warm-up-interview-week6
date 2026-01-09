@@ -4,7 +4,7 @@ async function fetchPets() {
     const response = await fetch ('${supabaseUrl}/rest/v1/pets', {
         headers: {
             'apikey': supabaseKey,
-            'Authorization': 'Bearer ${supabasekey}'
+            'Authorization': 'Bearer ${supabaseKey}'
         }
     });
 
